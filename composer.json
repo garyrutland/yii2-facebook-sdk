@@ -1,0 +1,27 @@
+{
+    "name": "garyrutland/yii2-facebook-sdk",
+    "description": "Yii2 Facebook SDK",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","facebook"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/garyrutland/yii2-facebook-sdk/issues",
+        "source": "https://github.com/garyrutland/yii2-facebook-sdk"
+    },
+    "authors": [
+        {
+            "name": "Gary Rutland",
+            "email": "gary.rutland@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "facebook/php-sdk-v4": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "garyrutland\\facebook\\": ""
+        }
+    }
+}
